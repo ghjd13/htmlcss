@@ -1,0 +1,22 @@
+.fire{
+    color: white;
+    font-weight: 100;
+    border:1px solid #FF7979;
+    border-radius: 24px;
+    background-color: #FF7979;
+    padding:24px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.message{
+    color: white;
+    font-weight: 100;
+    border:1px solid #569AFF;
+    border-radius: 24px;
+    background-color: #569AFF;
+    padding:24px;
+    font-size: 30px;
+}
+.box{
+    margin-top: 30px;
+}

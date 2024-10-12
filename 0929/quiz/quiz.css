@@ -1,0 +1,23 @@
+
+.album{
+    border: 1px solid white;
+    font-weight: 700;
+    width: 150px;
+    height:150px;
+}
+
+.album > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.album1{
+    width: 100px;
+    height:100px;
+}
+
+.album1 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 9999px;
+}

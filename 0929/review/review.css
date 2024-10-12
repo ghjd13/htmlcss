@@ -1,0 +1,16 @@
+.discount{
+    color: white;
+    font-weight: 700;
+    border:1px solid cornflowerblue;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    padding:12px 35px 12px 35px
+}
+.share{
+    color: rgba(0, 0, 0, 354);
+    font-weight: 700;
+    border:1px solid gainsboro;
+    border-radius: 4px;
+    background-color: gainsboro;
+    padding:12px 24px 12px 24px
+}

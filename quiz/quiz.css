@@ -1,0 +1,54 @@
+.but1{
+    color: white;
+    font-weight: 100;
+    border:1px solid #22C55E;
+    border-radius: 3px;
+    background-color: #22C55E;
+
+    padding:12px 35px 12px 35px
+}
+.but1_1{
+    color: white;
+    font-weight: 100;
+    border:1px solid #22C55E;
+    border-radius: 3px;
+    background-color: #22C55E;
+
+    padding:12px 80px 12px 80px
+}
+.but2{
+    color: white;
+    font-weight: 100;
+    border:1px solid #5cff97;
+    border-radius: 3px;
+    background-color: #5cff97;
+    padding:12px 35px 12px 35px
+}
+.but2_1{
+    color: white;
+    font-weight: 100;
+    border:1px solid #5cff97;
+    border-radius: 3px;
+    background-color: #5cff97;
+
+    padding:12px 80px 12px 80px
+}
+.but3{
+    color: #22C55E;
+    font-weight: 100;
+    border:1px solid #22C55E;
+    border-radius: 10px;
+    background-color: white;
+    padding:12px 35px 12px 35px
+}
+.but3_1{
+    color: #22C55E;
+    font-weight: 100;
+    border:1px solid #22C55E;
+    border-radius: 30px;
+    background-color: white;
+    padding:12px 50px 12px 50px
+}
+.longbutton{
+    border-width: 1000px;
+}

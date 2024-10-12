@@ -1,0 +1,29 @@
+.member{
+    color: #73a0b8;
+    border:1px solid #73a0b8;
+    border-radius: 4px;
+    background-color: white;
+}
+.Box_Model{
+    font-weight: 100;
+    border:1px solid #98eccb;
+    border-radius: 4px;
+    background-color: #98eccb;
+    cursor: grab;
+}
+.Background{
+    font-weight: 100;
+    border:1px solid #9dd7ff;
+    border-radius: 4px;
+    background-color: #9dd7ff;
+    cursor: zoom-in;
+}
+.Typography{
+    font-weight: 100;
+    border:1px solid #c9c5ff;
+    border-radius: 4px;
+    background-color: #c9c5ff;
+}
+.Title{
+    margin-bottom: 0px;
+}
