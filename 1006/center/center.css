@@ -1,0 +1,14 @@
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.contents{
+    width: 100%;
+    background-color: black;
+    max-width: 800px;
+    margin: 0 auto;
+}

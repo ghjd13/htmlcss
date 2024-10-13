@@ -1,0 +1,7 @@
+.box{
+    width: 100px;
+    height: 100px;
+
+    background-image: url("../../0929/quiz/jeju.jpg");
+    background-size: cover;
+}

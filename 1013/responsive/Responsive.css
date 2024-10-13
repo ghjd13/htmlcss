@@ -1,0 +1,49 @@
+.header{
+    position:fixed;
+    display: flex;
+    top: 0px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0,27,55,0.1);
+}
+.bar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #4e5968;
+    display: block;
+}
+.hamburger{
+    display: none;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+
+}
+@media screen and (max-width: 1280px){
+    .head > img{
+        opacity: 100;
+    }
+    .box{
+        background-color: red;
+    }
+    .bar{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+@media screen and (max-width: 768px){
+    .box{
+        background-color: yellow;
+    }
+}
+
+/*박스 pc(1280-) 버전일때 하늘색*/
+/*박스 table(768-1080) 버전일때 빨강색*/
+/*박스 mobile(-768) 버전일때 노랑색*/
+
+/*pc 버전일때 header 홈 어바웃 Q&A*/
+/*tablet 버전 이하일때 햄버거 Q&A*/

@@ -1,0 +1,54 @@
+.snsCard{
+    padding: 30px 10px 30px 10px;
+    border-radius: 16px;
+    width: 250px;
+    height: 450px;
+
+    background: rgb(255,234,0);
+    background: linear-gradient(0deg, rgba(255,234,0,1) 0%, rgba(117,230,184,1) 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 9999px;
+    
+    gap: 10px;
+    background-image: url("../../0929/quiz/jeju.jpg");
+    background-size: cover;
+}
+.profileName{
+    font-size: 20px;
+    color: white;
+
+    margin-top: 10px;
+}
+
+.motto{
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.linkButton{
+    background-color: white;
+    color: black;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sns{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 10px;
+}

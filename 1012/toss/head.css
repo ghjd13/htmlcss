@@ -1,0 +1,46 @@
+.header{
+    width: 100vw;
+    position:fixed;
+    top: 0px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0,27,55,0.1);
+    z-index: 100;
+}
+header>.container{
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    gap: 10px;
+    font-family: "Noto Sans KR";
+    color: #4e5968;
+}
+.box >li{
+    padding: 12px 10px;
+    border-radius: 20px;
+}
+
+.box > li:hover{
+    background-color: rgba(2, 32, 71, 0.05);
+    cursor: pointer;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

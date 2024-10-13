@@ -1,0 +1,84 @@
+.first{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.motto{
+    color: skyblue;
+    font-size: 10px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    font-size: 10px;
+    color: gainsboro;
+    margin-bottom: 30px;
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.apple{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 16px;
+    font-weight: bold;
+}
+.button>.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+.android{
+    border: 1px solid gainsboro;
+    background-color: navy;
+    color: white;
+}
+.android>.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

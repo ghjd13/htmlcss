@@ -1,0 +1,30 @@
+.noto-sans-kr {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    gap: 5px;
+}
+.box{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    font-family: "Noto Sans KR";
+    font-weight: bold;
+    color: black;
+    transition: all 0.3s;
+    background-color: #ffffff00;
+    padding: 14px 16px;
+    border-radius: 24px;
+}
+.box:hover{
+    background-color: #dbdbdb;
+}
+.pink{
+    color: rgb(255, 101, 127);
+}

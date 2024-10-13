@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction : row;
+    gap: 20px;
+}
+.box{
+    width: 300px;
+    height: 400px;
+
+    padding: 20px 30px 20px 30px;
+
+    border-radius: 14px;
+    display: flex;
+    flex-direction : column;
+    gap: 10px;
+    background-image: url("../../0929/quiz/jeju.jpg");
+    background-size: cover;
+}
+
+.font1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    width: fit-content;
+
+    padding: 12px;
+
+    color: white;
+}
+.font2{
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    flex-direction : column;
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+.font3{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    padding: 12px;
+    color: white;
+}
